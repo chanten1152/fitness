@@ -1,0 +1,239 @@
+.logo__title {
+  font-size: 30px;
+}
+.btn {
+  // margin-top: 10px;
+  max-width: 240px;
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  &__content {
+    display: flex;
+  }
+  &__text {
+    font-weight: bold;
+    font-family: "游ゴシック体";
+    margin-right: 15px;
+    margin-left: 35px;
+  }
+  &__arrow {
+    padding-right: 20px;
+  }
+  @include mq("xl") {
+    width: 200px;
+    &__text {
+      font-size: 0.75rem;
+      white-space: nowrap;
+      margin-left: 20px;
+      margin-right: 8px;
+    }
+  }
+  @include mq("lm") {
+    width: 180px;
+    &__text {
+      font-size: 0.75rem;
+      white-space: nowrap;
+      margin-left: 20px;
+      margin-right: 0px;
+    }
+    &__arrow {
+      display: none;
+    }
+  }
+}
+.cta {
+  position: relative;
+  background-color: #f5f5f5;
+  z-index: -100;
+  &::before {
+    //24時間タイマー
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 165.72px;
+    height: 157.86px;
+    background-image: url(../img/24hours.svg);
+    z-index: -10;
+    // background-color: antiquewhite;
+  }
+  &::after {
+    //力こぶ
+    content: "";
+    position: absolute;
+    top: 46%;
+    left: 180px;
+    width: 170px;
+    height: 190px;
+    background-image: url(../img/arm.svg);
+    z-index: -10;
+    // background-color: antiquewhite;
+  }
+  &__inner {
+    padding: 45px 30px 0;
+    display: flex;
+    justify-content: center;
+    &::before {
+      //ダンベル
+      content: "";
+      position: absolute;
+      top: 16%;
+      right: 3%;
+      width: 180px;
+      height: 150px;
+      background-image: url(../img/dombbell.svg);
+      z-index: -10;
+      // background-color: antiquewhite;
+    }
+    &::after {
+      //ほのお
+      content: "";
+      position: absolute;
+      top: 60%;
+      right: 11%;
+      width: 84.61px;
+      height: 116.71px;
+      background-size: 100%;
+      background-image: url(../img/fire.svg);
+      z-index: -10;
+      // background-color: antiquewhite;
+    }
+  }
+  &__title {
+    white-space: nowrap;
+    &__heading {
+      margin-bottom: 5px;
+    }
+    // grid-area: h2;
+    z-index: 100;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  &__img {
+    &__layout {
+      margin-left: 70px;
+      display: flex;
+      align-items: flex-end;
+      margin-right: 60px;
+    }
+    // grid-area: img;
+    // display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 349px;
+    max-height: 344px;
+  }
+  // &__content {
+  //   z-index: 100;
+  //   margin-left: 58px;
+  // }
+  &__text {
+    &__layout {
+      margin-bottom: 20px;
+    }
+    // box-sizing: border-box;
+    // grid-area: text;
+    width: 100%;
+    max-width: 485px;
+  }
+  &__btn {
+    &__layout {
+      margin-bottom: 55px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // display: block;
+    text-align: center;
+    // grid-area: btn;
+    // z-index: 100;
+    max-width: 325px;
+    height: 52px;
+    font-size: 1.125rem;
+  }
+  &__btn__text {
+    // z-index: 100;
+    margin: 0;
+  }
+  @include mq("lg") {
+    &__title {
+      font-size: 2rem;
+    }
+  }
+  @include mq("lgg") {
+    &__img {
+      &__layout {
+        // margin-left: 30px;
+      }
+    }
+  }
+  @include mq("llm") {
+    &__img {
+      height: 80%;
+      &__layout {
+        align-items: baseline;
+        // margin-left: 30px;
+      }
+    }
+  }
+  @include mq("ml") {
+    &__img {
+      display: none;
+      &__layout {
+        margin: 0;
+      }
+    }
+  }
+  @include mq("md") {
+    &::after {
+      //力こぶ
+      display: none;
+    }
+    &__inner {
+      &::before {
+        top: 55%;
+        right: 3%;
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+.top-title {
+  line-height: 1;
+  margin-top: 180px;
+  // margin-bottom: 100px;
+  color: #000;
+  font-size: 3rem;
+  &-sub {
+    margin-bottom: 40px;
+  }
+  &-text {
+    margin-bottom: 90px;
+  }
+  &.voice {
+    margin-top: 110px;
+  }
+  @include mq("lg") {
+    margin-top: 150px;
+  }
+  @include mq("lm") {
+    margin-top: 120px;
+    font-size: 2.5rem;
+  }
+  @include mq("ml") {
+    margin-top: 100px;
+    font-size: 2rem;
+  }
+  @include mq("md") {
+    font-size: 2.5rem;
+    &-text {
+      margin-bottom: 0;
+    }
+  }
+}

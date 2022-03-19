@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnerGym</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <!-- <div class="header__logo">
+          <h1 class="header__logo__title ls50">
+            <a href="/" class="header__logo__link">EnerGym</a>
+            <p class="header__logo__text f-ntj">サウナ付き24時間ジム</p>
+          </h1>
+        </div> -->
+        <div class="logo">
+          <h1 class="logo__title ls50">
+            <a href="/" class="logo__link">EnerGym</a>
+            <p class="logo__text f-ntj">サウナ付き24時間ジム</p>
+          </h1>
+        </div>
+        <div class="header__info">
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li">
+                <a class="header__link ls50" href="#">
+                  <span class="header__en">Service</span>
+                  <span class="header__ja">サービス</span>
+                </a>
+              </li>
+              <li class="header__li">
+                <a class="header__link ls50" href="#">
+                  <span class="header__en">Faq</span>
+                  <span class="header__ja">質問</span>
+                </a>
+              </li>
+              <li class="header__li">
+                <a class="header__link ls50" href="#">
+                  <span class="header__en">Price</span>
+                  <span class="header__ja">料金</span>
+                </a>
+              </li>
+              <li class="header__li">
+                <a class="header__link ls50" href="#">
+                  <span class="header__en">Access</span>
+                  <span class="header__ja">アクセス</span>
+                </a>
+              </li>
+            </ul>
+            <div class="header__phone">
+              <div class="header__number">
+                <svg
+                  class="header__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                  />
+                </svg>
+                <p class="header__figure ls50">03-0000-1234</p>
+              </div>
+              <p class="header__text ls50">お気軽にお問合せください</p>
+            </div>
+          </nav>
+          <a href="#" class="btn header__btn" target="_blank">
+            <span class="btn__text ls50">無料で体験してみる</span>
+            <img src="img/btn__arrow.svg" alt="" class="btn__arrow" />
+          </a>
+        </div>
+        <a href="#" class="header__burger">
+          <span class="header__burger-line sp"></span>
+        </a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__title">
+            <div class="hero__main-title">
+              Burn
+              <span class="hero__main-title-sm">with your</span>
+              Passion
+            </div>
+            <p class="hero__title-sub">さあ、情熱を燃やすときだ。</p>
+          </div>
+          <div class="hero__btn">
+            <a href="#" class="btn header__btn" target="_blank">
+              <span class="btn__text ls50">無料で体験してみる</span>
+              <img src="img/btn__arrow.svg" alt="" class="btn__arrow" />
+            </a>
+          </div>
+        </div>
+        <div class="hero__slide">
+          <img src="img/mv_1.jpg" alt="" class="hero__img" />
+        </div>
+        <div class="hero__scroll">
+          <p class="hero__scroll-text">SCROLL</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature__inner">
+        <div class="feature__title wrapper">
+          <div class="top-title">Feature</div>
+          <div class="top-title-sub f-ntj ls100">選ばれる6つの特徴</div>
+          <div class="top-title-text f-ntj ls100">
+            当ジムは、お客さまに満足して使っていただくための6つのポイントがございます。<br />
+            トレーニングに励むすべての方により良いサービスを展開しております。
+          </div>
+        </div>
+        <div class="feature__content">
+          <div class="feature__content time">
+            <div class="feature__text time">
+              <p class="feature__number time f-ntj ls100">
+                <span class="feature__number__inner bg time">特徴1</span>
+              </p>
+              <p class="feature__content-title time ls50">
+                <span class="feature__content-title bg">24hours</span>
+              </p>
+              <p class="feature__content-title-sub time f-ntj ls100">
+                <span class="feature__content-title-sub bg"
+                  >24時間365日営業</span
+                >
+              </p>
+              <p class="feature__description time f-ntj ls100">
+                24時間365日いつでもご利用可能です。日中お仕事で忙しい方、シフト制のお仕事で決まった時間に来れない方、どなたでも時間を気にせずストレスフリーな環境でトレーニング可能です。
+              </p>
+            </div>
+            <img
+              src="img/feature_1.jpg"
+              alt=""
+              class="feature__img time pc"
+            />
+            <img
+              src="img/feature_sp_1.jpeg"
+              alt=""
+              class="feature__img time sp"
+            />
+          </div>
+          <div class="feature__content sauna">
+            <div class="feature__text sauna">
+              <p class="feature__number sauna f-ntj ls100">
+                <span class="feature__number__inner bg sauna">特徴2</span>
+              </p>
+              <p class="feature__content-title sauna ls50">
+                <span class="feature__content-title bg">Free sauna</span>
+              </p>
+              <p class="feature__content-title-sub sauna ls100">
+                <span class="feature__content-title-sub bg"
+                  >タオル・ウエア・シューズ完備</span
+                >
+              </p>
+              <p class="feature__description sauna ls100">
+                月額会員様はサウナを無料でご利用できます。毎日通える環境を整えるために、サウナ以外の、ウエア、タオル、シューズといったトレーニング周りの備品も豊富に揃えておりますので、お気軽にご利用ください。
+              </p>
+            </div>
+            <img
+              src="img/feature_2.jpg"
+              alt=""
+              class="feature__img sauna pc"
+            />
+            <img
+              src="img/feature_sp_2.jpeg"
+              alt=""
+              class="feature__img sauna sp"
+            />
+          </div>
+          <div class="feature__content facility">
+            <div class="feature__text facility">
+              <p class="feature__number facility f-ntj ls100">
+                <span class="feature__number__inner bg facility">特徴3</span>
+              </p>
+              <p class="feature__content-title facility ls50">
+                <span class="feature__content-title bg">Renewal open</span>
+              </p>
+              <p class="feature__content-title-sub facility f-ntj ls100">
+                <span class="feature__content-title-sub bg"
+                  >2022年リニューアルオープン</span
+                >
+              </p>
+              <p class="feature__description facility f-ntj ls100">
+                何といっても施設全体がきれいです。2022年リニューアルオープンの最新設備が整った空間でトレーニングが可能です。スタッフが定期的に清掃を行っているため、感染対策などもバッチリです。
+              </p>
+            </div>
+            <img
+              src="img/feature_3.jpg"
+              alt=""
+              class="feature__img facility pc"
+            />
+            <img
+              src="img/feature_sp_3.jpg"
+              alt=""
+              class="feature__img facility sp"
+            />
+          </div>
+        </div>
+        <div class="feature__sub-content container">
+          <h2 class="feature__sub-content-title">その他の特徴</h2>
+          <div class="feature__sub-content__inner">
+            <div class="feature__sub-content__item">
+              <img
+                src="img/feature_4.jpg"
+                class="feature__sub-content-item__img"
+                alt=""
+              />
+              <h3 class="feature__sub-content-item-title">Check sheet</h3>
+              <p class="feature__sub-content-item-text ls100">
+                個人専用の体調管理シートの作成
+              </p>
+            </div>
+            <div class="feature__sub-content__item">
+              <img
+                src="img/feature_5.jpg"
+                class="feature__sub-content-item__img"
+                alt=""
+              />
+              <h3 class="feature__sub-content-item-title">Hot yoga</h3>
+              <p class="feature__sub-content-item-text f-ntj ls100">
+                室温35℃の1時間ヨガ体験（月一回）
+              </p>
+            </div>
+            <div class="feature__sub-content__item">
+              <img
+                src="img/feature_6.jpg"
+                class="feature__sub-content-item__img"
+                alt=""
+              />
+              <h3 class="feature__sub-content-item-title">Manual</h3>
+              <p class="feature__sub-content-item-text ls100">
+                初心者向けのトレーニングマニュアル配布
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta pc">
+      <div class="cta__inner">
+        <div class="cta__img__layout">
+          <img src="img/cta_women.png" alt="" class="cta__img"/>
+        </div>
+        <div class="cta__main">
+          <div class="cta__title__heading">
+            <h2 class="cta__title ls50">無料体験に申し込む</h2>
+          </div>
+          <div class="cta__text__layout">
+            <p class="cta__text">
+              「初めてのフィットネスで不安、、、」<br />
+              「興味はあるけど続けれるかどうかわからない」<br />
+              「まずは体験してみたい」<br />
+              などの不安やご要望を解決するために、まずはお気軽に無料体験をご利用ください。
+            </p>
+          </div>
+          <div class="cta__btn__layout">
+            <a href="#" class="btn cta__btn" target="_blank">
+              <span class="btn__text cta__btn__text ls100">無料で体験してみる</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="voice container">
+      <div class="voice__inner">
+        <div class="voice__title">
+          <div class="top-title ls50 voice">Voice</div>
+          <div class="top-title-sub f-ntj ls100">会員様の実際の声</div>
+          <div class="top-title-text voice__title-text f-ntj ls100">
+            EnerGrmに通われてる会員様に実施したアンケートやレビューの一部です。
+          </div>
+        </div>
+        <div class="voice__main">
+          <div class="voice__content">
+            <div class="voice__member">
+              <img src="img/voice_1.jpg" alt="" class="voice__img" />
+              <div class="voice__introduce">
+                <h3 class="voice__name-title f-ntj ls100">
+                  24時間営業のお陰で楽しく通えてます！
+                </h3>
+                <p class="voice__name f-ntj">佐藤 大輝さん：24歳（仮名）</p>
+              </div>
+            </div>
+            <p class="voice__description f-ntj ls100">
+              社会人生活にも慣れてきて何か別のことに挑戦したと思っていた時にEnerGymに出会いました。実は学生時代ジムに通っていましたが、営業時間が短くバイトやサークルの後に通うのができませんでした。<br />
+              社会人になり仕事の両立に不安はあったけど、24時間いつでも行けることが個人的にとても利用しやすいと感じました。ジムの営業時間を気にする必要がないため気軽に通えるのがありがたいです。
+            </p>
+          </div>
+          <div class="voice__content">
+            <div class="voice__member">
+              <img src="img/voice_2.jpg" alt="" class="voice__img" />
+              <div class="voice__introduce">
+                <h3 class="voice__name-title f-ntj ls100">
+                  設備が充実してるので毎日楽しく通ってます！
+                </h3>
+                <p class="voice__name f-ntj">近藤 剛さん：35歳（仮名）</p>
+              </div>
+            </div>
+            <p class="voice__description f-ntj ls100">
+              私は普段、サラリーマンとして働いていますが趣味で筋トレにハマって早5年経ちました。<br />
+              <br />
+              これまで色々ジムを回ってきましたが、EnerGymのお気に入りポイントはダンベルの種類が豊富に用意されていることです。通常2kg毎や、最大40kgまでのダンベルが多い中、ここでは1kg毎にあるのと、最大50kgまで置いてあるところが魅力的です。
+              初動負荷から最大負荷まで幅広くトレーニングできるのは大変ありがたいです。
+            </p>
+          </div>
+          <div class="voice__content">
+            <div class="voice__member">
+              <img src="img/voice_3.jpg" alt="" class="voice__img" />
+              <div class="voice__introduce">
+                <h3 class="voice__name-title f-ntj ls100">
+                  初心者に優しい環境が嬉しいです (^ ^)
+                </h3>
+                <p class="voice__name f-ntj">千秋さん：30代（仮名）</p>
+              </div>
+            </div>
+            <p class="voice__description f-ntj ls100">
+              私は普段子育てをしてる主婦なのですが、日中子供を学校へ送ってから少し時間があったのでうまく時間を活用したい理由からフィットネスを始めました。今までやったことなかったので何から始めたらいいかわからなかったですが、トレーナーの人の親切なアドバイスのおかげで安心して始めることができました。<br />
+              無料体験が終わって以降も、最初にいただいたマニュアルを参考に少しずつですがマイペースに続けれてます！
+            </p>
+          </div>
+          <div class="voice__content">
+            <div class="voice__member">
+              <img src="img/voice_4.jpg" alt="" class="voice__img" />
+              <div class="voice__introduce">
+                <h3 class="voice__name-title f-ntj ls100">
+                  サウナ無料は控えめに言って最高です、、！
+                </h3>
+                <p class="voice__name f-ntj">海斗さん：28歳（仮名）</p>
+              </div>
+            </div>
+            <p class="voice__description f-ntj ls100">
+              僕は普段から外回りが多く、汗をよく掻きます。代謝がいいのはいいことですが、それが原因でトレーニング後の帰り道があまり好きではありませんでした。EnerGymさんは会員限定でサウナを無料で使わせてくれると知りすぐに契約しました。<br />
+              <br />
+              おかげでがっつりトレーニングもでき、その後にサウナでたっぷり汗をかいて清々しい気持ちで毎日帰宅してます。寝つきも良くなり一石二鳥です(笑)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="target container">
+      <div class="target__inner">
+        <div class="target__title">
+          <div class="top-title ls50 target">Target</div>
+          <div class="top-title-sub f-ntj ls100">
+            こんな人におすすめのジムです
+          </div>
+          <div class="top-title-text target__title-text f-ntj ls100">
+            EnerGymでは普段味わえないような刺激的な環境を整えております。<br />
+            また、下記のようなお悩みがある人には打ってつけのジムになります。
+          </div>
+        </div>
+
+        <div class="target__content">
+          <div class="target__item">
+            <img src="img/target_1.svg" alt="" class="target__img" />
+            <p class="target__text">日中忙しくて<br />時間が取れない人</p>
+          </div>
+          <div class="target__item">
+            <img src="img/target_2.svg" alt="" class="target__img" />
+            <p class="target__text">整った設備を求めてる人</p>
+          </div>
+          <div class="target__item">
+            <img src="img/target_3.svg" alt="" class="target__img" />
+            <p class="target__text">
+              トレーニング後は帰って<br />寝るだけがいい人
+            </p>
+          </div>
+          <div class="target__item">
+            <img src="img/target_4.svg" alt="" class="target__img" />
+            <p class="target__text">家でのトレーニングが<br />続かない人</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta pc">
+      <div class="cta__inner">
+        <div class="cta__img__layout">
+          <img src="img/cta_women.png" alt="" class="cta__img"/>
+        </div>
+        <div class="cta__main">
+          <div class="cta__title__heading">
+            <h2 class="cta__title ls50">無料体験に申し込む</h2>
+          </div>
+          <div class="cta__text__layout">
+            <p class="cta__text">
+              「初めてのフィットネスで不安、、、」<br />
+              「興味はあるけど続けれるかどうかわからない」<br />
+              「まずは体験してみたい」<br />
+              などの不安やご要望を解決するために、まずはお気軽に無料体験をご利用ください。
+            </p>
+          </div>
+          <div class="cta__btn__layout">
+            <a href="#" class="btn cta__btn" target="_blank">
+              <span class="btn__text cta__btn__text ls100">無料で体験してみる</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq__inner">
+        <div class="faq__title wrapper">
+          <div class="top-title ls50 faq">Faq</div>
+          <div class="top-title-sub f-ntj ls100">よくあるご質問</div>
+        </div>
+        <div class="faq__content wrapper">
+          <div class="faq__item">
+            <div class="faq__question">
+              <span class="faq__qa f-ntj ls100">Q.</span>
+              <p class="faq__text f-ntj ls100">
+                2ヶ月目以降は通常料金の9,800円でしょうか？
+              </p>
+            </div>
+            <div class="faq__answer">
+              <span class="faq__qa f-ntj ls100">A.</span>
+              <p class="faq__text f-ntj ls100">
+                はい、2ヶ月目以降は通常料金の9,800円（税込）になります。
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span class="faq__qa f-ntj ls100">Q.</span>
+              <p class="faq__text f-ntj ls100">駐車場はありますか？</p>
+            </div>
+            <div class="faq__answer">
+              <span class="faq__qa f-ntj ls100">A.</span>
+              <p class="faq__text f-ntj ls100">
+                あります。施設駐車場は最大40台まで駐車可能です。
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span class="faq__qa f-ntj ls100">Q.</span>
+              <p class="faq__text f-ntj ls100">
+                決済方法はどの方法がありますか？
+              </p>
+            </div>
+            <div class="faq__answer">
+              <span class="faq__qa f-ntj ls100">A.</span>
+              <div class="faq__grid">
+                <p class="faq__text f-ntj ls100">
+                  決済方法は<br />
+                  ・クレジットカード<br />
+                  ・現金<br />
+                  ・電子マネー<br />
+                  のいずれかからお選びいただけます。
+                </p>
+                <br />
+                <p class="faq__text f-ntj ls100">
+                  月額会員様の場合<br />
+                  ・クレジットカード：毎月の引き落とし<br />
+                  ・現金の場合：その月の最終ご利用日にお支払い<br />
+                  ・電子マネー：その月の最終ご利用日にお支払い<br />
+                  いずれかの方法でお支払いいただけます。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span class="faq__qa f-ntj ls100">Q.</span>
+              <p class="faq__text f-ntj ls100">初心者の人もいますか？</p>
+            </div>
+            <div class="faq__answer">
+              <span class="faq__qa f-ntj ls100">A.</span>
+              <p class="faq__text f-ntj ls100">
+                たくさんおられます。大体経験者様が6割、初心者様が4割の割合でご利用されております。
+              </p>
+            </div>
+          </div>
+          <a href="#" class="faq__link">
+            <span class="faq__link-text ls100">他のよくある質問を見る</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="price">
+      <div class="price__inner wrapper">
+        <div class="price__title">
+          <div class="top-title price__title ls50 price">Price</div>
+          <div class="top-title-sub f-ntj ls100">
+            ご利用料金について（税込）
+          </div>
+        </div>
+
+        <div class="price__container f-ntj ls100">
+          <div class="price__main-content">
+            <h3 class="price__main-title">
+              本気でトレーニングに<br />打ち込みたい人向け
+            </h3>
+            <p class="price__topic">月額会員</p>
+            <div class="price__number">
+              <div class="price__number-item">
+                <span class="price__num">3,000</span>
+                <span class="price__unit">円</span>
+                <p class="price__des">（初回限定）</p>
+              </div>
+              <div class="price__number-item">
+                <span class="price__num">9,800</span>
+                <span class="price__unit">円</span>
+                <p class="price__des">（通常用）</p>
+              </div>
+            </div>
+            <p class="price__text">
+              月額会費は2ヶ月目以降9,800円になりますので予めご了承ください。
+            </p>
+            <p class="price__option">オプション</p>
+            <ul class="price__ul">
+              <li class="price__li">
+                サウナが完全無料でご利用いただけます。
+              </li>
+              <li class="price__li">
+                ウエア・タオル・シューズなど備品を無料貸し出ししております。
+              </li>
+            </ul>
+          </div>
+
+          <div class="price__sub-content">
+            <h3 class="price__sub-title">
+              まずはお試しから始めてみたい人向け
+            </h3>
+            <div class="price__sub-item">
+              <div class="price__experience">
+                <p class="price__topic times">
+                  回数券<span class="price__min">（10回分）</span>
+                </p>
+                <div class="price__number">
+                  <div class="price__number-item sub">
+                    <span class="price__num">5,000</span>
+                    <span class="price__unit">円</span>
+                  </div>
+                </div>
+                <p class="price__text price__pc">
+                  1日施設を自由にご利用いただけます。回数券はご購入後1年間有効です。
+                </p>
+                <p class="price__option price__pc">オプション</p>
+                <ul class="price__ul price__pc">
+                  <li class="price__li">サウナ利用料：200円</li>
+                  <li class="price__li">ウエア・シューズ・タオル：500円</li>
+                </ul>
+              </div>
+              <div class="price__experience">
+                <p class="price__topic once">1日利用券</p>
+                <div class="price__number">
+                  <div class="price__number-item sub">
+                    <span class="price__num">1,200</span>
+                    <span class="price__unit">円</span>
+                  </div>
+                </div>
+                <p class="price__text price__pc">
+                  1日施設を自由にご利用いただけます。途中の入退場も可能です。
+                </p>
+                <p class="price__option price__pc">オプション</p>
+                <ul class="price__ul price__pc">
+                  <li class="price__li">サウナ利用料：200円</li>
+                  <li class="price__li">ウエア・シューズ・タオル：500円</li>
+                </ul>
+              </div>
+              <p class="price__text price__sp">
+                1日施設を自由にご利用いただけます。<br />途中の入退場も可能です。<br>回数券の有効期限は1年間となっております。
+              </p>
+              <p class="price__option price__sp">オプション</p>
+              <ul class="price__ul price__sp">
+                <li class="price__li">サウナ利用料：200円</li>
+                <li class="price__li">ウエア・シューズ・タオル：500円</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="news__inner container">
+        <div class="news__title">
+          <div class="top-title ls50 news">News</div>
+          <div class="top-title-sub f-ntj ls100">
+            最新のニュースやコラム情報
+          </div>
+        </div>
+        <div class="news__content">
+          <ul class="news__ul f-ntj ls100">
+            <li class="news__li">
+              <span class="news__date">2022.03.10</span>
+              <span class="news__label">ニュース</span>
+              <a href="#" class="news__text"
+                >サイトがリニューアルされました！</a
+              >
+            </li>
+            <li class="news__li">
+              <span class="news__date">2022.03.10</span>
+              <span class="news__label">ニュース</span>
+              <a href="#" class="news__text"
+                >ボランティア活動を行なってきました。</a
+              >
+            </li>
+            <li class="news__li">
+              <span class="news__date">2022.03.10</span>
+              <span class="news__label">ニュース</span>
+              <a href="#" class="news__text"
+                >新しい会員様が10名増えました！</a
+              >
+            </li>
+          </ul>
+          <a href="#" class="news__link">
+            <span class="news__link-text ls100">全ての投稿を見る</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="access">
+      <div class="access__inner container">
+        <div class="access__title">
+          <div class="top-title ls50 news">Access</div>
+          <div class="top-title-sub f-ntj ls100">施設情報について</div>
+        </div>
+        <div class="access__content">
+          <div class="access__gallaly">
+            <img src="img/access_1.jpg" alt="" class="access__img" />
+          </div>
+          <ul class="access__ul f-ntj ls100">
+            <li class="access__li first">
+              <p class="access__label">所在</p>
+              <p class="access__text">東京都千代田区XXX-XX-XX</p>
+            </li>
+            <li class="access__li second">
+              <p class="access__label">営業時間</p>
+              <p class="access__text">24時間営業（正月を除く）</p>
+            </li>
+            <li class="access__li third">
+              <p class="access__label">電話番号</p>
+              <p class="access__text">03-0000-1234</p>
+            </li>
+            <li class="access__li fourth">
+              <p class="access__label">mail</p>
+              <p class="access__text">energym@passion.co.jp</p>
+            </li>
+          </ul>
+        </div>
+        <div class="access__google">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853398542!2d139.76493611522864!3d35.68124053757879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1594286431753!5m2!1sja!2sjp"
+            width="100%"
+            height="316"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta pc">
+      <div class="cta__inner">
+        <div class="cta__img__layout">
+          <img src="img/cta_women.png" alt="" class="cta__img"/>
+        </div>
+        <div class="cta__main">
+          <div class="cta__title__heading">
+            <h2 class="cta__title ls50">無料体験に申し込む</h2>
+          </div>
+          <div class="cta__text__layout">
+            <p class="cta__text">
+              「初めてのフィットネスで不安、、、」<br />
+              「興味はあるけど続けれるかどうかわからない」<br />
+              「まずは体験してみたい」<br />
+              などの不安やご要望を解決するために、まずはお気軽に無料体験をご利用ください。
+            </p>
+          </div>
+          <div class="cta__btn__layout">
+            <a href="#" class="btn cta__btn" target="_blank">
+              <span class="btn__text cta__btn__text ls100">無料で体験してみる</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__inner">
+        <div class="footer__title">
+          <div class="footer__logo">
+            <div class="footer__logo__title ls50">
+              <a href="/" class="header__logo__link footer__logo__link">
+                EnerGym
+              </a>
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo__title ls50">
+              <a href="/" class="logo__link">
+                EnerGym
+              </a>
+            </div>
+          </div>
+          <div class="footer__sns">
+            <a href=""><svg class="footer__instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            <a href=""><svg class="footer__youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+            <a href=""><svg class="footer__twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__content">
+          <p class="footer__text f-ntj ls100">まずはお気軽にお電話ください！</p>
+          <div class="footer__number">
+            <svg class="footer__telicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+            <p class="footer__tel ls100">03-0000-1234</p>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__li ls50"><a href="" class="footer__link">Home</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">Service</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">Faq</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">Price</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">News</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">Access</a></li>
+              <li class="footer__li ls50"><a href="" class="footer__link">Contact</a></li>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__copyright f-ntj">&copy 2022 Energym Inc.</div>
+      </div>
+      </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/libs/jquery.inview.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

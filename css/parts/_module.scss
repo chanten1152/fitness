@@ -1,0 +1,22 @@
+.logo{
+  position: relative;
+  padding-top: 15px;
+  margin-left: 55px;
+  &__title{
+    
+  }
+  &__link{
+    line-height: 1.3;
+    font-size: 2rem;
+  }
+  &__text{
+    font-size: .835rem;
+    transform: scale(0.835);
+    transform-origin: left top;
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 0;
+  }
+}
